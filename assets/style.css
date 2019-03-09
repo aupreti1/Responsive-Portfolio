@@ -201,7 +201,7 @@ nav {
       width:980px;
     }
   
-    .img-container {
+    .container {
       width:50%;  
       height: 50%;
     }
@@ -210,8 +210,8 @@ nav {
       left: 60px
     }
     .centered {
-    width: 82%;
-    left: 45%;
+    width: 93%;
+    left: 50%;
     }
   
     img {
@@ -259,7 +259,7 @@ nav {
       width:768px;
     }
   
-    .img-container {
+    .container {
       width:50%;  
       height: 50%;
     }
@@ -268,8 +268,8 @@ nav {
       left: 60px
     }
     .centered {
-    width: 82%;
-    left: 45%;
+    width: 92%;
+    left: 50%;
     }
   
     img {
@@ -326,7 +326,7 @@ nav {
      font-size:18px;
      position: relative;
     }
-    .img-container {
+    .container {
       width:80%;  
       height: 50%;
       float: none; 
@@ -335,7 +335,7 @@ nav {
     }
     .centered {
       width:85%;
-      left:54%;
+      left:55%;
       top:250px;
     }
    img {
