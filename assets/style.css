@@ -52,10 +52,10 @@ li {
 }
 
 nav {
-  position: absolute;
+  position: relative;
   float: right;
   top: 15px;
-  right: 200px;
+  right: 250px;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -88,7 +88,7 @@ nav {
     bottom:0;
     width: 100%;
     border-top: 5px solid #4aaaa5;
-    padding: 20px;
+    padding: 17px;
   }
 
   #contact{
@@ -153,7 +153,7 @@ nav {
     text-align: center;
     color: white;
     float: left;
-    width: 40%;
+    width: 40%
   }
 
   .centered {
@@ -166,46 +166,185 @@ nav {
     background-color:#4aaaa5;
   } 
 
+  @media screen and (max-width:980px) {
+    #about {  
+      left:50px;
+      width:75%;
+      height: 80%;
+    
+    } 
+    #profile {
+      height: 250px;
+      width: 250px;
+    }
+    #contactbox {
+      width: 70%;
+      left: 50px;
+    }
+   nav {
+     float: right;
+     top:10px;
+     right:40px;
+      
+    }
+    #portfoliobox {
+     top: 100px;
+     left: 60px;
+     width:70%;
+    
+    }
+    header {
+      width:980px;
+      
+    }
+    footer {
+      width:980px;
+    }
+  
+    .img-container {
+      width:50%;  
+      height: 50%;
+    }
+    
+    #name {
+      left: 60px
+    }
+    .centered {
+    width: 82%;
+    left: 45%;
+    }
+  
+    img {
+    height: 100%;
+    width:  100%;
+    float: left;
+    }
+    h1 {
+      text-align: left;
+    }
+  
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    #about {
+      height:80%;
+      width:75%;
+    
+    } 
+    #contactbox {
+      width: 90%;
+      left: 50px;
+    }
+   nav {
+     float: right;
+     top:10px;
+     right:40px;
+      
+    }
+    #profile {
+      height: 250px;
+      width: 250px;
+    }
+    #portfoliobox {
+     top: 100px;
+     left: 80px;
+      width:80%;
+      align-items:
+    }
+    header {
+      width:768px;
+    }
+    footer {
+      width:768px;
+    }
+  
+    .img-container {
+      width:50%;  
+      height: 50%;
+    }
+  
+    #name {
+      left: 60px
+    }
+    .centered {
+    width: 82%;
+    left: 45%;
+    }
+  
+    img {
+    height: 100%;
+    width:  100%;
+    float: left;
+    }
+    h1 {
+      text-align: left;
+    }
+  
+  }
   @media screen and (max-width:640px) {
     #about {
-      width:100%;
-      font-size:12px;
-    }
-
+      top: 120px;
+      left: 80px;
+      width:80%;
+    } 
     #name {
       width:100%;
-      float:none;
+      float: none;
+      left: 0px;
+      
+      font-size: 24px;
+      position: relative;
     }
-
     #portfoliobox {
-      float:none;
-      width:100%;
-      align-items:center;
+      top: 130px;
+      width:75%;
+      padding:10px;
+      height: 740px;
     }
-
+    #contactbox {
+      width:80%;
+      top: 130px;
+      left: 70px;
+    }
     header {
       width:640px;
+      padding-bottom: 20px;
+     
     }
-
     footer {
       width:640px;
+      
     }
-
+    #profile {
+      height: 250px;
+      width: 250px;
+    }
+    nav{
+     float: none;
+     left: 15px;
+     font-size:18px;
+     position: relative;
+    }
     .img-container {
-      width:25%;
-      float:none;
+      width:80%;  
+      height: 50%;
+      float: none; 
+      padding-left:30px;
+      margin: 30px;
     }
-
     .centered {
-      width: 100%;
+      width:85%;
+      left:54%;
+      top:250px;
     }
-
-    img {
-      float:none;
-    }
-
+   img {
+     height: 100%;
+     width: 100%;
+     
+   }
     h1 {
-      text-align:center;
+      text-align: left;
     }
   }
-
+  
