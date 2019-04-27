@@ -22,6 +22,7 @@ h1 {
   font-family: 'Marck Script', cursive;
   color: #4c4080;
   margin-left: 20px;
+  padding: 0px;
 }
 
 h4 {color:#ffffff;
@@ -117,10 +118,10 @@ nav {
   }
   
   #contactbox {
-    padding: 20px;
+    padding: 10px;
     position: relative;
     left: 230px;
-    top: 100px;
+    top: 80px;
     border: 1px solid #cccccc;
     background: #ffffff;
     color:#777777;
