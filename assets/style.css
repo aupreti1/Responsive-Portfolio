@@ -389,5 +389,12 @@ nav {
     h1 {
       text-align: left;
     }
+
+    form {
+      top: 250px;
+      left: 80px;
+      width:80%;
+      float: left;
+    } 
   }
   
