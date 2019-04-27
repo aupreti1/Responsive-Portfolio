@@ -1,23 +1,41 @@
 *{box-sizing: border-box;}
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  color: #333;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+  color: #4c4080;
   line-height: 20px;
 }
 
+p { 
+  font-family: 'Didact Gothic', sans-serif;
+  color: #4c4080;
+  padding: 10px 0px 0px 0px;
+  font-size: 15px;
+}
+
+address { 
+  display: block;
+}
+
 h1 {
-  font-family: 'Times New Roman', Times, serif;
-  color: #4aaaa5;
+  font-family: 'Marck Script', cursive;
+  color: #4c4080;
   margin-left: 20px;
 }
 
 h4 {color:#ffffff;
-  background-color:#4aaaa5;
+  background-color: #5466d1;
   margin-left: 10px;
   font-family:'Times New Roman', Times, serif;
   text-align: center;
+}
+
+h3 {
+  font-family: 'Didact Gothic', sans-serif;
+  color: #4c4080;
+  text-align: center;
+  font-size: 15px;
 }
 
 header {
@@ -31,20 +49,23 @@ header {
 
 #name {
   padding:20px;
-  background: #4aaaa5;
+  background: #4794a8;
   position: relative;
   float: left;
   left:155px;
-  font-family:'Times New Roman', Times, serif;
-  font-size:18px;
+  font-family: 'Satisfy', cursive;
+  font-size:20px;
   color: white;
 }
 
 a {
-  color: #777777
+  color:  #4c4080;
 }
 
 li {
+  font-family: 'Satisfy', cursive;
+  font-size: 17px;
+  color: #4c4080;
   padding:5px;
   float: left;
   border-right: .10px solid #777777;
@@ -74,7 +95,7 @@ nav {
     top: 100px;
     border: 1px solid #cccccc;
     background: #ffffff;
-    color:#777777;
+    color: #4c4080;
     width: 70%;
     overflow: auto;
     clear: both;
@@ -87,7 +108,7 @@ nav {
     clear: both;
     bottom:0;
     width: 100%;
-    border-top: 5px solid #4aaaa5;
+    border-top: 5px solid #4794a8;
     padding: 17px;
   }
 
@@ -104,6 +125,7 @@ nav {
     background: #ffffff;
     color:#777777;
     width: 750px;
+    height: 430px;
     overflow: auto;
     clear: both;
   }
@@ -116,9 +138,15 @@ nav {
     margin-bottom: 6px; 
     resize: vertical 
   }
+
+  #giticon {
+    height: 50px !important;
+    width: 50px !important;
+    float: left;
+  }
   
   input[type=submit] {
-    background-color: #4aaaa5;
+    background-color:#4c4080;
     color: white;
     padding: 7px 20px;
     border: none;
@@ -126,7 +154,7 @@ nav {
   }
   
   input[type=submit]:hover {
-    background-color: #4aaaa5;
+    background-color: #4794a8;
   }
   
   .container2 {
@@ -142,10 +170,17 @@ nav {
     border: 1px solid #cccccc;
     background: #ffffff;
     color:#777777;
-    width: 750px;
+    width: 800px;
     overflow: auto;
     height:auto;
     clear: both;
+  }
+
+  form {
+    width: 100%;
+    position: absolute;
+    left: 400px;
+   top: 0px;
   }
 
   .container {
@@ -153,17 +188,19 @@ nav {
     text-align: center;
     color: white;
     float: left;
-    width: 40%
+    width: 30%;
   }
 
   .centered {
     position: absolute;
     top: 70%;
-    left: 35.5%;
+    bottom: 3%;
+    left: 44%;
     transform: translate(-50%, -50%);
-    width: 64%;
-    padding: 10px;
-    background-color:#4aaaa5;
+    width: 80%;
+    padding: 10px 3px;
+    background-color: #9d96db;
+
   } 
 
   @media screen and (max-width:980px) {
@@ -219,6 +256,7 @@ nav {
     width:  100%;
     float: left;
     }
+
     h1 {
       text-align: left;
     }
@@ -279,6 +317,11 @@ nav {
     }
     h1 {
       text-align: left;
+    }
+
+    h3 {
+      text-align: center;
+
     }
   
   }
