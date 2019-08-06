@@ -1,6 +1,7 @@
 *{box-sizing: border-box;}
 
 body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPlTl7KwtTSNLVczCcFtjSDVJ4CYrU-Npt_4W20-ZejWI9M5VGtA");
   font-family: 'Didact Gothic', sans-serif;
   font-size: 20px;
   color: #4c4080;
@@ -9,9 +10,9 @@ body {
 
 p { 
   font-family: 'Didact Gothic', sans-serif;
-  color: #4c4080;
+  color: #00d100;
   padding: 10px 0px 0px 0px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 address { 
@@ -20,7 +21,7 @@ address {
 
 h1 {
   font-family: 'Marck Script', cursive;
-  color: #4c4080;
+  color: #00d100;
   margin-left: 20px;
   padding: 0px;
 }
@@ -34,15 +35,15 @@ h4 {color:#ffffff;
 
 h3 {
   font-family: 'Didact Gothic', sans-serif;
-  color: #4c4080;
+  color: #00008a;
   text-align: center;
   font-size: 15px;
 }
 
 header {
-    background: #ffffff;
+    background: #00008a;
     position: absolute;
-    border: 1px solid #cccccc;
+    border: 1px solid #00d100;
     width: 100%;
     left:0;
     top:0;
@@ -50,23 +51,24 @@ header {
 
 #name {
   padding:20px;
-  background: #4794a8;
+  background: #00008a;
   position: relative;
   float: left;
   left:155px;
   font-family: 'Satisfy', cursive;
-  font-size:20px;
-  color: white;
+  font-size: 30px;
+  color: #00d100;
 }
 
 a {
-  color:  #4c4080;
+  color:  #00d100;
+  font-size: 20px;
 }
 
 li {
   font-family: 'Satisfy', cursive;
   font-size: 17px;
-  color: #4c4080;
+  color: #00d100;
   padding:5px;
   float: left;
   border-right: .10px solid #777777;
@@ -94,9 +96,9 @@ nav {
     position: relative;
     left: 200px;
     top: 100px;
-    border: 1px solid #cccccc;
-    background: #ffffff;
-    color: #4c4080;
+    border: 1px solid #00d100;
+    background: #00008a;
+    color: #00d100;
     width: 70%;
     overflow: auto;
     clear: both;
@@ -104,12 +106,12 @@ nav {
 
   footer {
     position: fixed;
-    background: #666666;
+    background: #00008a;
     left: 0;
     clear: both;
     bottom:0;
     width: 100%;
-    border-top: 5px solid #4794a8;
+    border-top: 5px solid #00d100;
     padding: 17px;
   }
 
@@ -120,24 +122,15 @@ nav {
   #contactbox {
     padding: 10px;
     position: relative;
-    left: 230px;
+    left: 435px;
     top: 80px;
-    border: 1px solid #cccccc;
-    background: #ffffff;
-    color:#777777;
+    border: 1px solid #00d100;
+    background: #00008a;
+    color:#00d100;
     width: 750px;
     height: 430px;
     overflow: auto;
     clear: both;
-  }
-
-  input[type=text], select, textarea {
-    width: 100%; 
-    padding: 5px;  
-    border: 1px solid #ccc; 
-    margin-top: 6px; 
-    margin-bottom: 6px; 
-    resize: vertical 
   }
 
   #giticon {
@@ -146,30 +139,19 @@ nav {
     float: left;
   }
   
-  input[type=submit] {
-    background-color:#4c4080;
-    color: white;
-    padding: 7px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #4794a8;
-  }
-  
   .container2 {
     border-radius: 5px;
     padding: 8px;
   } 
    
   #portfoliobox {
+    font-family: 'Didact Gothic', sans-serif;
     padding: 20px;
     position: absolute;
-    left: 230px;
+    left: 435px;
     top: 100px;
-    border: 1px solid #cccccc;
-    background: #ffffff;
+    border: 1px solid #00d100;
+    background: #00008a;
     color:#777777;
     width: 800px;
     overflow: auto;
@@ -187,9 +169,17 @@ nav {
   .container {
     position: relative;
     text-align: center;
-    color: white;
+    color:#00d100;
     float: left;
     width: 30%;
+  }
+
+  .container4 {
+    position: relative;
+    text-align: center;
+    color:#00d100;
+    float: left;
+    width: 100%;
   }
 
   .centered {
@@ -200,7 +190,7 @@ nav {
     transform: translate(-50%, -50%);
     width: 80%;
     padding: 10px 3px;
-    background-color: #9d96db;
+    background-color: #00d100;
 
   } 
 
